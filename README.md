@@ -1,1 +1,2 @@
-# es6-test
+# es-6 test solution
+

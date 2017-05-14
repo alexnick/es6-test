@@ -1,0 +1,26 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+.parent-item-wrapper{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 12px;
+  margin-top: 16px;
+}
+
+.parent-item-wrapper:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.child-item-wrapper{
+  padding: 16px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
